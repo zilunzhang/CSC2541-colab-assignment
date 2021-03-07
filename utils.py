@@ -1,6 +1,8 @@
 import os
 import torch
 import cv2
+import numpy as onp
+import jax.numpy as jnp
 
 
 def get_sample_image(way_num, support_inputs, query_inputs, support_targets, query_targets, save_dir):
@@ -29,3 +31,10 @@ def get_sample_image(way_num, support_inputs, query_inputs, support_targets, que
     img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
     cv2.imwrite(os.path.join(save_dir, 'sampled_image.png'), img)
 
+def torch2jnp(support_inputs, query_inputs, support_targets, query_targets):
+    assert support_inputs.shape[0] == query_inputs.shape[0] == support_targets.shape[0] == query_targets.shape[0]
+    support_inputs = jnp.array(support_inputs.squeeze(0).permute(0, 2, 3, 1).cpu().detach().numpy())
+    query_inputs = jnp.array(query_inputs.squeeze(0).permute(0, 2, 3, 1).cpu().detach().numpy())
+    support_targets = jnp.array(support_targets.squeeze(0).cpu().detach().numpy())
+    query_targets = jnp.array(query_targets.squeeze(0).cpu().detach().numpy())
+    return support_inputs, query_inputs, support_targets, query_targets
