@@ -22,9 +22,9 @@ Omniglot: https://github.com/brendenlake/omniglot
 
 A snapshot for single episode. 
 
-left: support set, right: query set
-
 5way-1shot-15query (N=5, K=1, Q=15)
+
+left: support set, right: query set
 
 <p align='center'>
   <img src='sampled_image.png' width="800px">
