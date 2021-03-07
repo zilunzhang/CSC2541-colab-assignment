@@ -2,8 +2,21 @@
 CSC2541 colab assignment
 
 
-###
-pip install -r requirements.txt
-python main.py
-###
+## Requirements
 
+Python : 3.6
+
+To install dependencies:
+
+```setup
+sudo pip3 install -r requirements.txt
+```
+
+## Dataset
+
+Omniglot: https://github.com/brendenlake/omniglot
+
+## RUN
+```
+python main.py
+```
