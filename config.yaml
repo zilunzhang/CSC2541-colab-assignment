@@ -20,7 +20,7 @@ test_size:
 ckpt_path:
   "result_files"
 
-# actually, it is the number of episode in each batch, for 5way-1shot-1query task, each episode has 5 * (1+15) = 80 images
+# actually, it is the number of episode in each batch, for 5way-1shot-15query task, each episode has 5 * (1+15) = 80 images
 batch_size:
   1
 
