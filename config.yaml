@@ -1,18 +1,24 @@
+# task name
 name:
   "omniglot"
 
+# random seed
 seed:
   0
 
+# how many training steps (each step trains a batch) in training stage
 total_train_iter:
   100
 
+# perform a validation after how many training steps
 val_interval:
   10
 
+# how many batchs in each validation stage
 val_size:
   10
-
+  
+# how many batchs in test stage
 test_size:
   100
 
@@ -24,9 +30,14 @@ ckpt_path:
 batch_size:
   1
 
+# number of way (class) per episode
 N:
   5
+  
+# number of image per class in support set (shot)
 K:
   1
+  
+# number of image per class in query set (query)
 Q:
   15
