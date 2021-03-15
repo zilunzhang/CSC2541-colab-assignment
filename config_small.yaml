@@ -1,0 +1,35 @@
+name:
+  "omniglot"
+
+shape:
+  [28, 28, 1]
+
+seed:
+  0
+
+total_train_iter:
+  101
+
+val_interval:
+  10
+
+val_size:
+  10
+
+test_size:
+  20
+
+# result file root
+ckpt_path:
+  "result_files"
+
+# actually, it is the number of episode in each batch, for 5way-1shot-1query task, it has 5 * (1+15) = 80 images
+batch_size:
+  1
+
+N:
+  5
+K:
+  1
+Q:
+  15

@@ -1,0 +1,129 @@
+/usr/local/anaconda3/envs/python36/bin/python3.6 /mnt/85214e8e-1c51-424a-88c1-aba021aa634f/uoft/csc2541/colab_maml_jax/colab_maml.py
+W0315 16:57:03.236775 140353537435456 xla_bridge.py:135] No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+  1%|          | 2001/200000 [03:14<227:38:30,  4.14s/it]average validation accuracy at: 2000, mean: 0.7751467823982239, std: 0.10819530487060547
+best validation ckpt saved
+  2%|▏         | 4001/200000 [05:50<354:29:07,  6.51s/it]average validation accuracy at: 4000, mean: 0.8557466864585876, std: 0.0871313139796257
+best validation ckpt saved
+  3%|▎         | 6001/200000 [08:25<360:25:46,  6.69s/it]average validation accuracy at: 6000, mean: 0.8825200796127319, std: 0.07804190367460251
+best validation ckpt saved
+  4%|▍         | 8001/200000 [11:00<177:20:57,  3.33s/it]average validation accuracy at: 8000, mean: 0.9323200583457947, std: 0.06181294098496437
+best validation ckpt saved
+  5%|▌         | 10001/200000 [13:36<359:18:27,  6.81s/it]average validation accuracy at: 10000, mean: 0.9520266652107239, std: 0.052341435104608536
+best validation ckpt saved
+  6%|▌         | 12001/200000 [16:12<181:47:37,  3.48s/it]average validation accuracy at: 12000, mean: 0.953706681728363, std: 0.04936794191598892
+best validation ckpt saved
+  7%|▋         | 14001/200000 [18:46<345:49:31,  6.69s/it]average validation accuracy at: 14000, mean: 0.9551867246627808, std: 0.05139248073101044
+best validation ckpt saved
+  8%|▊         | 16001/200000 [21:20<334:04:12,  6.54s/it]average validation accuracy at: 16000, mean: 0.9639200568199158, std: 0.043228715658187866
+best validation ckpt saved
+  9%|▉         | 18001/200000 [23:55<333:49:05,  6.60s/it]average validation accuracy at: 18000, mean: 0.9719200730323792, std: 0.03749195113778114
+best validation ckpt saved
+ 10%|█         | 20001/200000 [26:28<169:47:21,  3.40s/it]average validation accuracy at: 20000, mean: 0.971333384513855, std: 0.0396910198032856
+ 11%|█         | 22001/200000 [29:01<318:40:57,  6.45s/it]average validation accuracy at: 22000, mean: 0.9707334041595459, std: 0.03902585431933403
+ 12%|█▏        | 24001/200000 [31:32<313:19:59,  6.41s/it]average validation accuracy at: 24000, mean: 0.962920069694519, std: 0.04888268932700157
+ 13%|█▎        | 26001/200000 [34:05<328:01:36,  6.79s/it]average validation accuracy at: 26000, mean: 0.9710666537284851, std: 0.03898055478930473
+ 14%|█▍        | 28001/200000 [36:39<317:04:07,  6.64s/it]average validation accuracy at: 28000, mean: 0.9720800518989563, std: 0.042359646409749985
+best validation ckpt saved
+ 15%|█▌        | 30001/200000 [39:12<316:59:43,  6.71s/it]average validation accuracy at: 30000, mean: 0.9716266989707947, std: 0.042402543127536774
+ 16%|█▌        | 32001/200000 [41:45<309:02:29,  6.62s/it]average validation accuracy at: 32000, mean: 0.969053328037262, std: 0.04324186593294144
+ 17%|█▋        | 34001/200000 [44:18<305:20:49,  6.62s/it]average validation accuracy at: 34000, mean: 0.9786133170127869, std: 0.036512844264507294
+best validation ckpt saved
+ 18%|█▊        | 36001/200000 [46:51<295:35:33,  6.49s/it]average validation accuracy at: 36000, mean: 0.9776400327682495, std: 0.03629182279109955
+ 19%|█▉        | 38001/200000 [49:24<292:18:49,  6.50s/it]average validation accuracy at: 38000, mean: 0.9758933186531067, std: 0.03919440507888794
+ 20%|██        | 40001/200000 [51:57<298:23:41,  6.71s/it]average validation accuracy at: 40000, mean: 0.978546679019928, std: 0.03498854860663414
+ 21%|██        | 42001/200000 [54:31<299:17:54,  6.82s/it]average validation accuracy at: 42000, mean: 0.9790266752243042, std: 0.035484377294778824
+best validation ckpt saved
+ 22%|██▏       | 44001/200000 [57:04<282:20:47,  6.52s/it]average validation accuracy at: 44000, mean: 0.9752800464630127, std: 0.03855311870574951
+ 23%|██▎       | 46001/200000 [59:37<284:35:49,  6.65s/it]average validation accuracy at: 46000, mean: 0.971893310546875, std: 0.03971080482006073
+ 24%|██▍       | 48001/200000 [1:02:10<280:46:00,  6.65s/it]average validation accuracy at: 48000, mean: 0.9765733480453491, std: 0.03687805309891701
+ 25%|██▌       | 50001/200000 [1:04:44<278:32:20,  6.68s/it]average validation accuracy at: 50000, mean: 0.9771600365638733, std: 0.03681214153766632
+ 26%|██▌       | 52001/200000 [1:07:17<271:28:02,  6.60s/it]average validation accuracy at: 52000, mean: 0.977786660194397, std: 0.034508462995290756
+ 27%|██▋       | 54001/200000 [1:09:51<269:51:17,  6.65s/it]average validation accuracy at: 54000, mean: 0.9713066816329956, std: 0.03955506533384323
+ 28%|██▊       | 56001/200000 [1:12:24<131:07:38,  3.28s/it]average validation accuracy at: 56000, mean: 0.9788133502006531, std: 0.03329618275165558
+ 29%|██▉       | 58001/200000 [1:14:57<128:34:05,  3.26s/it]average validation accuracy at: 58000, mean: 0.9826666712760925, std: 0.03123530186712742
+best validation ckpt saved
+ 30%|███       | 60001/200000 [1:17:31<129:22:14,  3.33s/it]average validation accuracy at: 60000, mean: 0.9765733480453491, std: 0.03873085975646973
+ 31%|███       | 62001/200000 [1:20:04<254:15:24,  6.63s/it]average validation accuracy at: 62000, mean: 0.9835200309753418, std: 0.03190068155527115
+best validation ckpt saved
+ 32%|███▏      | 64001/200000 [1:22:37<242:52:11,  6.43s/it]average validation accuracy at: 64000, mean: 0.9820800423622131, std: 0.03206011652946472
+ 33%|███▎      | 66001/200000 [1:25:10<245:13:04,  6.59s/it]average validation accuracy at: 66000, mean: 0.9801200032234192, std: 0.0328928641974926
+ 34%|███▍      | 68001/200000 [1:27:44<245:26:26,  6.69s/it]average validation accuracy at: 68000, mean: 0.9817333221435547, std: 0.03222448006272316
+ 35%|███▌      | 70001/200000 [1:30:18<241:58:10,  6.70s/it]average validation accuracy at: 70000, mean: 0.984053373336792, std: 0.03166373819112778
+best validation ckpt saved
+ 36%|███▌      | 72001/200000 [1:32:51<236:20:21,  6.65s/it]average validation accuracy at: 72000, mean: 0.9851999878883362, std: 0.027827715501189232
+best validation ckpt saved
+ 37%|███▋      | 74001/200000 [1:35:24<114:47:33,  3.28s/it]average validation accuracy at: 74000, mean: 0.9850000143051147, std: 0.029319308698177338
+ 38%|███▊      | 76001/200000 [1:37:57<230:26:51,  6.69s/it]average validation accuracy at: 76000, mean: 0.987893283367157, std: 0.02517683058977127
+best validation ckpt saved
+ 39%|███▉      | 78001/200000 [1:40:30<225:34:23,  6.66s/it]average validation accuracy at: 78000, mean: 0.9844000339508057, std: 0.03316516801714897
+ 40%|████      | 80001/200000 [1:43:04<223:20:11,  6.70s/it]average validation accuracy at: 80000, mean: 0.9849466681480408, std: 0.0320454016327858
+ 41%|████      | 82001/200000 [1:45:36<210:09:50,  6.41s/it]average validation accuracy at: 82000, mean: 0.9835333228111267, std: 0.03143889456987381
+ 42%|████▏     | 84001/200000 [1:48:09<215:26:45,  6.69s/it]average validation accuracy at: 84000, mean: 0.9801333546638489, std: 0.034891314804553986
+ 43%|████▎     | 86001/200000 [1:50:43<212:03:17,  6.70s/it]average validation accuracy at: 86000, mean: 0.9786533117294312, std: 0.040057286620140076
+ 44%|████▍     | 88001/200000 [1:53:16<208:01:48,  6.69s/it]average validation accuracy at: 88000, mean: 0.9851067066192627, std: 0.027652794495224953
+ 45%|████▌     | 90001/200000 [1:55:51<206:53:59,  6.77s/it]average validation accuracy at: 90000, mean: 0.9843599796295166, std: 0.032318055629730225
+ 46%|████▌     | 92001/200000 [1:58:24<199:34:44,  6.65s/it]average validation accuracy at: 92000, mean: 0.9849200248718262, std: 0.026871999725699425
+ 47%|████▋     | 94001/200000 [2:00:58<198:19:24,  6.74s/it]average validation accuracy at: 94000, mean: 0.9834933280944824, std: 0.03310146927833557
+ 48%|████▊     | 96001/200000 [2:03:32<191:39:42,  6.63s/it]average validation accuracy at: 96000, mean: 0.9847466945648193, std: 0.02727721631526947
+ 49%|████▉     | 98001/200000 [2:06:08<192:58:53,  6.81s/it]average validation accuracy at: 98000, mean: 0.981813371181488, std: 0.033829640597105026
+ 50%|█████     | 100001/200000 [2:08:44<96:39:53,  3.48s/it]average validation accuracy at: 100000, mean: 0.981813371181488, std: 0.032209042459726334
+ 51%|█████     | 102001/200000 [2:11:20<93:25:03,  3.43s/it]average validation accuracy at: 102000, mean: 0.9859732985496521, std: 0.028977518901228905
+ 52%|█████▏    | 104001/200000 [2:13:57<178:10:09,  6.68s/it]average validation accuracy at: 104000, mean: 0.9854533672332764, std: 0.028648726642131805
+ 53%|█████▎    | 106001/200000 [2:16:33<173:21:42,  6.64s/it]average validation accuracy at: 106000, mean: 0.9833866357803345, std: 0.02895968407392502
+ 54%|█████▍    | 108001/200000 [2:19:09<174:27:55,  6.83s/it]average validation accuracy at: 108000, mean: 0.9694666862487793, std: 0.046742599457502365
+ 55%|█████▌    | 110001/200000 [2:21:44<169:25:05,  6.78s/it]average validation accuracy at: 110000, mean: 0.9802134037017822, std: 0.035925209522247314
+ 56%|█████▌    | 112001/200000 [2:24:19<163:20:28,  6.68s/it]average validation accuracy at: 112000, mean: 0.9838666915893555, std: 0.030643172562122345
+ 57%|█████▋    | 114001/200000 [2:26:51<80:35:27,  3.37s/it]average validation accuracy at: 114000, mean: 0.9836533069610596, std: 0.03408465534448624
+ 58%|█████▊    | 116001/200000 [2:29:24<154:09:39,  6.61s/it]average validation accuracy at: 116000, mean: 0.9834533333778381, std: 0.029924102127552032
+ 59%|█████▉    | 118001/200000 [2:31:58<152:35:13,  6.70s/it]average validation accuracy at: 118000, mean: 0.9851999878883362, std: 0.030954869464039803
+ 60%|██████    | 120001/200000 [2:34:32<144:40:49,  6.51s/it]average validation accuracy at: 120000, mean: 0.9827467203140259, std: 0.03498205542564392
+ 61%|██████    | 122001/200000 [2:37:06<147:09:50,  6.79s/it]average validation accuracy at: 122000, mean: 0.986893355846405, std: 0.02802763320505619
+ 62%|██████▏   | 124001/200000 [2:39:40<141:28:44,  6.70s/it]average validation accuracy at: 124000, mean: 0.9834799766540527, std: 0.03285490348935127
+ 63%|██████▎   | 126001/200000 [2:42:13<68:46:49,  3.35s/it]average validation accuracy at: 126000, mean: 0.9857466816902161, std: 0.029485171660780907
+ 64%|██████▍   | 128001/200000 [2:44:47<132:00:42,  6.60s/it]average validation accuracy at: 128000, mean: 0.9878534078598022, std: 0.025747759267687798
+ 65%|██████▌   | 130001/200000 [2:47:21<125:54:27,  6.48s/it]average validation accuracy at: 130000, mean: 0.9842666387557983, std: 0.03151746466755867
+ 66%|██████▌   | 132001/200000 [2:49:55<131:35:59,  6.97s/it]average validation accuracy at: 132000, mean: 0.9878666400909424, std: 0.024836881086230278
+ 67%|██████▋   | 134001/200000 [2:52:29<123:06:20,  6.71s/it]average validation accuracy at: 134000, mean: 0.985093355178833, std: 0.02943640574812889
+ 68%|██████▊   | 136001/200000 [2:55:03<116:34:46,  6.56s/it]average validation accuracy at: 136000, mean: 0.9892266988754272, std: 0.024531645700335503
+best validation ckpt saved
+ 69%|██████▉   | 138001/200000 [2:57:37<58:02:33,  3.37s/it]average validation accuracy at: 138000, mean: 0.9870933294296265, std: 0.025768108665943146
+ 70%|███████   | 140001/200000 [3:00:10<53:54:32,  3.23s/it]average validation accuracy at: 140000, mean: 0.9864133596420288, std: 0.02546854130923748
+ 71%|███████   | 142001/200000 [3:02:44<108:13:27,  6.72s/it]average validation accuracy at: 142000, mean: 0.9854799509048462, std: 0.03024955652654171
+ 72%|███████▏  | 144001/200000 [3:05:18<105:44:32,  6.80s/it]average validation accuracy at: 144000, mean: 0.9851199984550476, std: 0.03134479373693466
+ 73%|███████▎  | 146001/200000 [3:07:51<49:53:46,  3.33s/it]average validation accuracy at: 146000, mean: 0.9851866364479065, std: 0.032574497163295746
+ 74%|███████▍  | 148001/200000 [3:10:25<95:10:32,  6.59s/it]average validation accuracy at: 148000, mean: 0.9776666760444641, std: 0.04177691414952278
+ 75%|███████▌  | 150001/200000 [3:12:58<92:41:00,  6.67s/it]average validation accuracy at: 150000, mean: 0.9847466349601746, std: 0.0328965038061142
+ 76%|███████▌  | 152001/200000 [3:15:32<44:38:16,  3.35s/it]average validation accuracy at: 152000, mean: 0.9758800268173218, std: 0.04171973466873169
+ 77%|███████▋  | 154001/200000 [3:18:06<85:35:16,  6.70s/it]average validation accuracy at: 154000, mean: 0.9781466126441956, std: 0.03822895884513855
+ 78%|███████▊  | 156001/200000 [3:20:39<41:02:23,  3.36s/it]average validation accuracy at: 156000, mean: 0.9780933856964111, std: 0.040747564285993576
+ 79%|███████▉  | 158001/200000 [3:23:13<77:19:47,  6.63s/it]average validation accuracy at: 158000, mean: 0.9831066727638245, std: 0.03531624376773834
+ 80%|████████  | 160001/200000 [3:25:47<74:23:42,  6.70s/it]average validation accuracy at: 160000, mean: 0.9851466417312622, std: 0.03151578828692436
+ 81%|████████  | 162001/200000 [3:28:21<34:46:03,  3.29s/it]average validation accuracy at: 162000, mean: 0.9849867224693298, std: 0.027745259925723076
+ 82%|████████▏ | 164001/200000 [3:30:54<64:46:32,  6.48s/it]average validation accuracy at: 164000, mean: 0.9772933721542358, std: 0.03892965242266655
+ 83%|████████▎ | 166001/200000 [3:33:28<63:18:29,  6.70s/it]average validation accuracy at: 166000, mean: 0.9818400144577026, std: 0.03500083461403847
+ 84%|████████▍ | 168001/200000 [3:36:02<59:17:32,  6.67s/it]average validation accuracy at: 168000, mean: 0.9870400428771973, std: 0.028532130643725395
+ 85%|████████▌ | 170001/200000 [3:38:35<55:21:49,  6.64s/it]average validation accuracy at: 170000, mean: 0.9853866696357727, std: 0.030477041378617287
+ 86%|████████▌ | 172001/200000 [3:41:08<50:32:20,  6.50s/it]average validation accuracy at: 172000, mean: 0.9830933809280396, std: 0.03365226835012436
+ 87%|████████▋ | 174001/200000 [3:43:42<24:47:42,  3.43s/it]average validation accuracy at: 174000, mean: 0.9783732891082764, std: 0.038434043526649475
+ 88%|████████▊ | 176001/200000 [3:46:15<44:08:47,  6.62s/it]average validation accuracy at: 176000, mean: 0.9807066917419434, std: 0.03814169764518738
+ 89%|████████▉ | 178001/200000 [3:48:48<40:51:38,  6.69s/it]average validation accuracy at: 178000, mean: 0.9783467054367065, std: 0.03505074977874756
+ 90%|█████████ | 180001/200000 [3:51:22<18:32:06,  3.34s/it]average validation accuracy at: 180000, mean: 0.9826666712760925, std: 0.03243043273687363
+ 91%|█████████ | 182001/200000 [3:53:55<17:07:11,  3.42s/it]average validation accuracy at: 182000, mean: 0.9823466539382935, std: 0.03330938145518303
+ 92%|█████████▏| 184001/200000 [3:56:29<29:51:32,  6.72s/it]average validation accuracy at: 184000, mean: 0.978973388671875, std: 0.03880908712744713
+ 93%|█████████▎| 186001/200000 [3:59:03<26:04:59,  6.71s/it]average validation accuracy at: 186000, mean: 0.9835466742515564, std: 0.03316555544734001
+ 94%|█████████▍| 188001/200000 [4:01:36<21:57:59,  6.59s/it]average validation accuracy at: 188000, mean: 0.9789333343505859, std: 0.03813798725605011
+ 95%|█████████▌| 190001/200000 [4:04:13<9:37:47,  3.47s/it]average validation accuracy at: 190000, mean: 0.9831733107566833, std: 0.03228031098842621
+ 96%|█████████▌| 192001/200000 [4:06:49<7:43:07,  3.47s/it]average validation accuracy at: 192000, mean: 0.9771733283996582, std: 0.04191218689084053
+ 97%|█████████▋| 194001/200000 [4:09:24<5:41:01,  3.41s/it]average validation accuracy at: 194000, mean: 0.9829333424568176, std: 0.03334825858473778
+ 98%|█████████▊| 196001/200000 [4:12:00<7:31:23,  6.77s/it]average validation accuracy at: 196000, mean: 0.983240008354187, std: 0.03234521299600601
+ 99%|█████████▉| 198001/200000 [4:14:35<3:41:15,  6.64s/it]average validation accuracy at: 198000, mean: 0.9782933592796326, std: 0.037965159863233566
+100%|██████████| 200000/200000 [4:16:49<00:00, 12.98it/s]
+best validation accuracy: 0.9892266988754272, std: 0.024531645700335503
+
+best ckpt loaded
+test accuracy: 0.9856399893760681, std: 0.026523176580667496
+test loss: 0.04584183543920517
+
+program takes: 4:17:35.728222
+
+Process finished with exit code 0
