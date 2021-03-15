@@ -35,5 +35,5 @@ left: support set, right: query set
 
 ## RUN
 ```
-python colab_maml.py
+python main.py
 ```
